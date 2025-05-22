@@ -1,0 +1,52 @@
+/* src/styles/CapitalGainsCard.css */
+.capital-gains-card {
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+  width: 45vw;
+  margin-right: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.capital-gains-card.pre-harvesting {
+  background-color: #333; /* Dark background */
+}
+
+.capital-gains-card.after-harvesting {
+  background-color: #007bff; /* Blue background */
+}
+
+.capital-gains-card h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.capital-gains-card .card-section {
+  margin-bottom: 15px;
+}
+
+.capital-gains-card h4 {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.capital-gains-card p {
+  margin: 3px 0;
+  font-size: 0.9em;
+}
+
+.capital-gains-card .total-gains {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.capital-gains-card .savings-message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 1.1em;
+}
